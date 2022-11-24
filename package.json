@@ -1,0 +1,14 @@
+{
+  "name": "mynodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mathematics.js",
+  "scripts": {
+    "start": "node mathematics.js"
+  },
+  "author": "manisha boora",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^11.4.0"
+  }
+}
