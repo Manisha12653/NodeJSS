@@ -1,14 +1,18 @@
-{
-  "name": "mynodejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "mathematics.js",
-  "scripts": {
-    "start": "node mathematics.js"
-  },
-  "author": "manisha boora",
-  "license": "ISC",
+{   
   "dependencies": {
-    "mathjs": "^11.4.0"
-  }
-}
+    "express": "^4.18.2",
+    "mongoose": "^6.7.5",
+    "nodemon": "^2.0.20", 
+    "validator": "^13.7.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "startnodemon": "nodemon server.js"
+  },
+  "name": "myfirstapp",
+  "version": "1.0.0",  
+  "main": "server.js",
+  "author": "manisha",
+  "license": "ISC",
+  "description": ""
+}  
